@@ -15,7 +15,7 @@
         }
         a { color: inherit; text-decoration: none; }
         img { max-width: 100%; display: block; }
-        /* Sticky Nav */
+        /* Nav bar */
         header {
             position: sticky;
             top: 0;
@@ -62,8 +62,8 @@
   cursor: pointer;
   color: var(--primary);
 }
-        /* Hero Banner */
-        .hero {
+        /* Header section */
+        .cpm {
             background: url('download\ \(1\).jpg') center/cover no-repeat;
             min-height: 60vh;
             display: flex;
@@ -73,25 +73,25 @@
             color: var(--light);
             position: relative;
         }
-        .hero::after {
+        .cpm::after {
             content: "";
             position: absolute;
             inset: 0;
             background: rgba(30,144,255,0.5);
             z-index: 1;
         }
-        .hero-content {
+        .cpm-content {
             position: relative;
             z-index: 2;
             max-width: 600px;
             margin: 0 auto;
         }
-        .hero h1 {
+        .cpm h1 {
             font-size: 2.8rem;
             margin-bottom: 1rem;
             animation: fadeInDown 1s;
         }
-        .hero p {
+        .cpm p {
             font-size: 1.2rem;
             margin-bottom: 2rem;
             animation: fadeInUp 1.2s;
