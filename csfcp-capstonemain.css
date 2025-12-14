@@ -63,7 +63,7 @@
   color: var(--primary);
 }
         /* Hero Banner */
-        .hero {
+        .cpm {
             background: url('download\ \(1\).jpg') center/cover no-repeat;
             min-height: 60vh;
             display: flex;
@@ -73,25 +73,25 @@
             color: var(--light);
             position: relative;
         }
-        .hero::after {
+        .cpm::after {
             content: "";
             position: absolute;
             inset: 0;
             background: rgba(30,144,255,0.5);
             z-index: 1;
         }
-        .hero-content {
+        .cpm-content {
             position: relative;
             z-index: 2;
             max-width: 600px;
             margin: 0 auto;
         }
-        .hero h1 {
+        .cpm h1 {
             font-size: 2.8rem;
             margin-bottom: 1rem;
             animation: fadeInDown 1s;
         }
-        .hero p {
+        .cpm p {
             font-size: 1.2rem;
             margin-bottom: 2rem;
             animation: fadeInUp 1.2s;
@@ -137,12 +137,12 @@
             font-size: 2rem;
             color: var(--primary);
         }
-        .dest-grid {
+        .destination-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
             gap: 1.5rem;
         }
-        .dest-card {
+        .destination-card {
             background: var(--light);
             border-radius: 16px;
             overflow: hidden;
@@ -151,24 +151,24 @@
             cursor: pointer;
             position: relative;
         }
-        .dest-card:hover {
+        .destination-card:hover {
             transform: translateY(-6px) scale(1.03);
             box-shadow: 0 6px 24px rgba(30,144,255,0.13);
         }
-        .dest-card img {
+        .destination-card img {
             height: 160px;
             object-fit: cover;
             width: 100%;
         }
-        .dest-card .dest-info {
+        .destination-card .dest-info {
             padding: 1rem;
         }
-        .dest-card .dest-info h3 {
+        .destination-card .dest-info h3 {
             font-size: 1.1rem;
             margin-bottom: 0.3rem;
             color: var(--primary);
         }
-        .dest-card .dest-info p {
+        .destination-card .dest-info p {
             font-size: 0.95rem;
             color: var(--gray);
         }
@@ -660,3 +660,4 @@
     padding: 0.5rem 0;
   }
 }
+
